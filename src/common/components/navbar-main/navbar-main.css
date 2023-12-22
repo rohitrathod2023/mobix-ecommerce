@@ -1,0 +1,34 @@
+.nav-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.right-part{
+    display: flex;
+    align-items: center;
+
+}
+
+.custom-nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.navbar-nav .custom-nav-link.active{
+
+          color: #FF90BC;
+}
+.offer-text{
+    color: white;
+    font-weight: bold;
+}
+
+.sub-btn{
+    width: 100px;
+    background: #ff2c91;
+    border-radius: 6px;
+    border: none;
+    color: white;
+}

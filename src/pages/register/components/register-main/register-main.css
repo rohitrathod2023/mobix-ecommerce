@@ -1,0 +1,48 @@
+.register-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading{
+    font-family: 'Gilory', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    color: #1E2228;
+    margin-bottom: 40PX;
+}
+
+.text-right{
+    text-align: right;
+
+}
+
+.text-pink{
+    font-family: 'Gilroy-Medium' ;
+    color: #ff2c91;
+    text-decoration: none;
+}
+.link-small{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.heading-sub{
+    font-family: 'Gilroy-Medium' ;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #1E2228;
+    font-weight: 600;
+}
+
+.main-btn{
+    width: 100%;
+    background: #ff2c91;
+    border-radius: 6px;
+    border: none;
+    color: white;
+}

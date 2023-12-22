@@ -1,0 +1,16 @@
+.logo-text{
+  /* color: #1E2228;*/
+   font-size: 24px;
+   font-weight: bold; 
+
+}
+.white-color{
+    color: white;
+}
+.black-color{
+    color: #1E2228;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
