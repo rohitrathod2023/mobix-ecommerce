@@ -1,0 +1,18 @@
+.products-main{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px 0;
+}
+.custom-pagination{
+      margin-top: 30px;
+}
+.custom-pagination .page-link{
+    color: #1E2228;
+}
+
+.custom-pagination .page-item.active .page-link {
+    background: none;
+    color: #ff2c91;
+    border-color: #ff2c91 ;
+}

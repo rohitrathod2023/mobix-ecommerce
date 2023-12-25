@@ -7,6 +7,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Register from './pages/register';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
+import ProductList from './pages/product-list';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element ={ <Home/>}/>
         <Route path='/login' element ={ <Login/>}/>
         <Route path='/register' element ={ <Register/>}/>
+        <Route path = '/products' element ={<ProductList/>}/>
       </Routes>
      
        

@@ -1,0 +1,37 @@
+.body-main{
+    background: #F5F5F5BF;
+    padding: 50px 0 100px 0;
+    min-height: 500px;
+}
+
+.text-align-left{
+    align-items: left;
+}
+
+.products-main-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-heading{
+    font-size: 24px;
+    line-height: 28px;
+    color: #1E2228;
+    font-weight: bold;
+
+}
+.sort-by{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.sort-by-label{
+    
+    width: 80px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #1E2228;
+}
