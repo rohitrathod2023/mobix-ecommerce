@@ -18,7 +18,8 @@ const ProductMain =() => {
                      />
                     </div>
                     );
-                })}
+                })
+                }
                  </div>
             </div>
             <div className="pagination">

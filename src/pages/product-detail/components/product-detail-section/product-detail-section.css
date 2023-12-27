@@ -1,0 +1,103 @@
+.product-section-main{
+    text-align: left;
+}
+.section-gap{
+    margin: 30px 0px ;
+}
+
+.product-title{
+    text-align: left;
+}
+.features{
+    text-align: left;
+    margin-top: 30px;
+}
+.features-heading{
+    font-size: 12px;
+    color: #939599;
+    margin-bottom: 5px;
+}
+
+.features-detail{
+    font-size: 14px;
+    color: #939599;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.color-heading {
+    font-size: 14px;
+    color: #1E2228;
+    font-weight: bold;
+
+}
+
+.quntity-selection-heading{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1E2228;
+}
+
+.quntity-selection-qty{
+    width: 70px;
+    height: 36px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: #939599;
+    margin-left: 20px;
+}
+
+.prices-and-taxes .current-price{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #1E2228;
+
+}
+
+.prices-and-taxes .orignal-price{
+            font-weight: bold;
+            font-size: 16px;
+}
+
+.prices-and-taxes .discount{
+            font-size: 14px;
+            font-weight: bold;
+}
+
+.bottom-part{
+    font-size: 14px;
+    color: #939599;
+}
+
+.offers span{
+    margin-left: 10px;
+    color: #1E2228;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.add-to-cart-btn{
+    background: #ff2c91;
+    border: 1px solid #ff2c91;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 50px;
+}
+
+.add-to-cart-btn:hover{
+  background: #ff2c91;
+    border: 1px solid #ff2c91;
+    border-radius: 6px;
+
+}
+
+.policy-value{
+    font-weight: bold;
+}

@@ -8,7 +8,7 @@ import Phone5 from "../../assets/images/phones/phone5.svg";
 
 export const SAMPLE_PHONES_PRODUCTS_LIST = [
     {
-    id: "1111",
+    id: "1121",
     imageFile: Phone1,
     name: " APPLE iPhone 13 (Midnight, 128 GB)",
     currrentPrice : "₹58,900" ,
@@ -21,7 +21,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1112",
+    id: "1122",
     imageFile: Phone2 ,
     name: "Nothing Phone (2) (Dark Grey, 512 GB)",
     currrentPrice : "₹45,999" ,
@@ -32,7 +32,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1113",
+    id: "1123",
     imageFile: Phone3,
     name: "OnePlus Nord CE 2 Lite 5G (Black Dusk, 128 GB)",
     currrentPrice : "₹16,895" ,
@@ -43,7 +43,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1114",
+    id: "1124",
     imageFile: Phone4,
     name: "POCO C55 (Forest Green, 64 GB)  (4 GB RAM)",
     currrentPrice : "₹6,499" ,
@@ -54,7 +54,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1115",
+    id: "1125",
     imageFile: Phone5,
     name: "POCO M6 Pro 5G (Power Black, 128 GB)",
     currrentPrice : "₹11,999" ,
@@ -65,7 +65,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1111",
+    id: "1131",
     imageFile: Phone1,
     name: " APPLE iPhone 13 (Midnight, 128 GB)",
     currrentPrice : "₹58,900" ,
@@ -78,7 +78,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1112",
+    id: "1132",
     imageFile: Phone2 ,
     name: "Nothing Phone (2) (Dark Grey, 512 GB)",
     currrentPrice : "₹45,999" ,
@@ -89,7 +89,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1113",
+    id: "1133",
     imageFile: Phone3,
     name: "OnePlus Nord CE 2 Lite 5G (Black Dusk, 128 GB)",
     currrentPrice : "₹16,895" ,
@@ -100,7 +100,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1114",
+    id: "1134",
     imageFile: Phone4,
     name: "POCO C55 (Forest Green, 64 GB)  (4 GB RAM)",
     currrentPrice : "₹6,499" ,
@@ -111,7 +111,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1115",
+    id: "1135",
     imageFile: Phone5,
     name: "POCO M6 Pro 5G (Power Black, 128 GB)",
     currrentPrice : "₹11,999" ,
@@ -122,7 +122,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1111",
+    id: "1141",
     imageFile: Phone1,
     name: " APPLE iPhone 13 (Midnight, 128 GB)",
     currrentPrice : "₹58,900" ,
@@ -135,7 +135,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1112",
+    id: "1142",
     imageFile: Phone2 ,
     name: "Nothing Phone (2) (Dark Grey, 512 GB)",
     currrentPrice : "₹45,999" ,
@@ -146,7 +146,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1113",
+    id: "1143",
     imageFile: Phone3,
     name: "OnePlus Nord CE 2 Lite 5G (Black Dusk, 128 GB)",
     currrentPrice : "₹16,895" ,
@@ -157,7 +157,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1114",
+    id: "1144",
     imageFile: Phone4,
     name: "POCO C55 (Forest Green, 64 GB)  (4 GB RAM)",
     currrentPrice : "₹6,499" ,
@@ -168,7 +168,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1115",
+    id: "1145",
     imageFile: Phone5,
     name: "POCO M6 Pro 5G (Power Black, 128 GB)",
     currrentPrice : "₹11,999" ,
@@ -179,7 +179,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1111",
+    id: "1151",
     imageFile: Phone1,
     name: " APPLE iPhone 13 (Midnight, 128 GB)",
     currrentPrice : "₹58,900" ,
@@ -192,7 +192,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1112",
+    id: "1152",
     imageFile: Phone2 ,
     name: "Nothing Phone (2) (Dark Grey, 512 GB)",
     currrentPrice : "₹45,999" ,
@@ -203,7 +203,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1113",
+    id: "1153",
     imageFile: Phone3,
     name: "OnePlus Nord CE 2 Lite 5G (Black Dusk, 128 GB)",
     currrentPrice : "₹16,895" ,
@@ -214,7 +214,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1114",
+    id: "1154",
     imageFile: Phone4,
     name: "POCO C55 (Forest Green, 64 GB)  (4 GB RAM)",
     currrentPrice : "₹6,499" ,
@@ -225,7 +225,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
 
 },
 {
-    id: "1115",
+    id: "1155",
     imageFile: Phone5,
     name: "POCO M6 Pro 5G (Power Black, 128 GB)",
     currrentPrice : "₹11,999" ,

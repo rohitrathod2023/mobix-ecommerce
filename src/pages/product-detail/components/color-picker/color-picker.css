@@ -1,0 +1,29 @@
+.color-picker-main{
+  
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    border: 2px solid #E9E9E9;
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+
+.color-picker-text{
+    color: #1E2228;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.color-picker-text.pink-color{
+    color: #FF2C91;
+}
+
+.red-checkmark{
+    position: relative;
+    left: 30px;
+}

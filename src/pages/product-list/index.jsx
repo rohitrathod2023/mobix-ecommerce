@@ -12,7 +12,7 @@ const ProductList = () => {
     <div className="product-list-main">
         <Header/>
         <NavbarMain/>
-        <div className="body-main">
+        <div className="products-main">
             <div className="container">
                 <div className="row">
                     <div className="col-md-3 text-align-left">

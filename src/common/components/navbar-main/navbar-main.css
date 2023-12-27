@@ -18,9 +18,10 @@
 }
 .navbar-nav .custom-nav-link.active{
 
-          color: #FF90BC;
+    color: #FF90BC;
 }
 .offer-text{
+    display: flex;
     color: white;
     font-weight: bold;
 }
