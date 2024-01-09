@@ -9,6 +9,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
 import ProductList from './pages/product-list';
 import ProductDetail from './pages/product-detail';
+import AddressPage from './pages/address-page';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
         <Route path='/register' element ={ <Register/>}/>
         <Route path = '/products' element ={<ProductList/>}/>
         <Route path='/products/:productName/:productId' element={<ProductDetail/>}/> 
+        <Route path ='/checkout' element = {<AddressPage/>}/>
       
       </Routes>
      

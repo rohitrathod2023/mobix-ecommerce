@@ -6,7 +6,11 @@ import Footer from "../../common/components/footer";
 import BreadCrumbs from "./components/breadcrumbs";
 import ShareButton from "../../common/components/share-button";
 import ProductDetailMiddel from "./components/product-detail-section";
+import ProductPictures from "./components/product-pictures";
+
+
 const ProductDetail = () => {
+
 
     return(
             <div className="product-detail-main">
@@ -18,7 +22,7 @@ const ProductDetail = () => {
                       <BreadCrumbs/>
                     <div className="product-section">
                         <div className="row">
-                            <div className="col-md-5">  left part</div>
+                            <div className="col-md-5"><ProductPictures/></div>
                             <div className="col-md-6">  <ProductDetailMiddel/> </div>
                             <div className="col-md-1"> <ShareButton/> </div>
                         </div>

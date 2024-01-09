@@ -1,6 +1,6 @@
 import React from "react";
 import "./color-picker.css";
-import ResCheckmark from "../../../../common/assets/icon/redcheckmark.svg";
+import CheckMarkIcon from "../../../../common/assets/icon/checkmarkicon";
 
 const ColorPicker = (props)  =>{
     const {color, active, onClick} = props;
@@ -13,9 +13,7 @@ const ColorPicker = (props)  =>{
             style={{backgroundColor: color}}
              > 
             <div className="red-checkmark"> 
-                {active && <img src={ResCheckmark} 
-                alt="Red Color checkmarkar" 
-            />
+                {active && <CheckMarkIcon/>
             }
             </div>  
             </div>

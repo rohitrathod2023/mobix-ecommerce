@@ -10,7 +10,7 @@ import TruckIcon from "../../../../common/assets/icon/truckicon.svg";
 import ReturnIcon from "../../../../common/assets/icon/returnicon.svg";
 import Rightcheck from "../../../../common/assets/icon/rightmark.svg"
 
-const ProductDetailMiddel = () => {
+const ProductDetailSection = () => {
     const [activeColor, setActiveColor] = useState(null);
 
     const handleColorClick = (color) =>{
@@ -131,4 +131,4 @@ const ProductDetailMiddel = () => {
     );
 };
 
-export default ProductDetailMiddel;
+export default ProductDetailSection;
