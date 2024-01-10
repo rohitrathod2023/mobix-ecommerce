@@ -3,40 +3,48 @@ import "./product-detail-section.css";
 import OffersIcon from "../../../../common/assets/icon/offersicon.jsx";
 import CartIcon from "../../../../common/assets/icon/carticon.jsx";
 import CheckMarkIcon from "../../../../common/assets/icon/checkmark.svg";
-import { useState } from "react";
 import CalenderIcon from "../../../../common/assets/icon/calender.svg";
 import TruckIcon from "../../../../common/assets/icon/truckicon.svg";
 import ReturnIcon from "../../../../common/assets/icon/returnicon.svg";
 import Rightcheck from "../../../../common/assets/icon/rightmark.svg"
 import ColorPickerSection from "../color-picker-section/index.jsx";
 
-const ProductDetailSection = () => {
+
+const ProductDetailSection = props => {
    
+ const {productDetail} = props;
+    
+ const {name= "",  
+        currrentPrice = "", 
+        originalPrice= "", 
+        discount= "",
+        offer = "",
+        emi = "",
+        availablecolors = [],
+        keyfeatures = [] ,
+    } = productDetail;
     
     return(
         <div className="product-section-main">
-           <div className="product-title section-gap">  
-            <h4>Nothing Phone (2) (Dark Grey, 512 GB)  (12 GB RAM)</h4> 
+           <div className="product-title">  
+              <h4>{productDetail !== undefined ? name : "Name is not defined"}</h4> 
            </div>
            <div className="features section-gap">
              <p className="features-heading">KRY FEATURES</p>
              <ul className="features-detail">
-                <li>
+                {keyfeatures.map(featuresText=>{
+                    return(
+                        <li>
                     <img src={CheckMarkIcon}  alt="checkmark icon" />
-                    <span className="mx-2">4700 mAh Lithium ion Battery </span>
+                    <span className="mx-2">{featuresText}</span>
                 </li>
-                <li>
-                <img src={CheckMarkIcon}  alt=" checkmark icon" />
-                <span className="mx-2">Qualcomm Snapdragon 8+ Gen 1 Processor </span>
-                </li>
-                <li>
-                <img src={CheckMarkIcon} alt=" checkmark icon" />
-                <span className="mx-2">LTPO AMOLED (1 Hz - 120 Hz) </span>
-                </li>
+                    )
+                })}
+    
              </ul>
            </div>
            <div className="color-picker section-gap">
-            <ColorPickerSection/>
+            <ColorPickerSection availablecolors = {availablecolors}/>
             </div>
            <div className="quntity-selection section-gap">
             <label className="quntity-selection-heading">Select Qty. </label>
@@ -50,9 +58,15 @@ const ProductDetailSection = () => {
            </div>
            <div className="prices-and-taxes section-gap">
             <div className="top-part d-flex align-items-center justify-space-between"> 
-            <div className="current-price">₹20,000</div>
-            <div className="orignal-price mx-3">₹23,000</div>
-            <div className="discount mx-1">10% off</div>
+            <div className="current-price">
+                {productDetail !== undefined ? currrentPrice : "Name is not defined"}
+                </div>
+            <div className="orignal-price mx-3">
+                {productDetail !== undefined ? originalPrice : "Name is not defined"}
+                </div>
+            <div className="discount mx-1">
+                {productDetail !== undefined ? discount : "Name is not defined"}
+            </div>
             </div>
             <div className="bottom-part">
                 Inclusive of all taxes  
@@ -61,11 +75,11 @@ const ProductDetailSection = () => {
            <div className="offers section-gap">
                 <div className="emi-offers">
                     <img src={CalenderIcon} alt=" calender Icon" />
-                    <span>No cost EMI 1,750/month, Standerd EMI also availabel. T&C</span>
+                    <span>No cost {emi}, Standerd EMI also availabel. T&C</span>
                 </div>
                 <div className="bank-offers">
                     <OffersIcon color="black" width="16" height="16"/>
-                    <span>Bank offer 5% unlimited Cashback on flipkart Axis Bank Credit Cart. T&C</span>
+                    <span>Bank offer {offer} on flipkart Axis Bank Credit Cart. T&C</span>
                 </div>
            </div>
            <div className="add-to-cart section-gap"> 

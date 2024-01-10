@@ -1,7 +1,7 @@
 import React from "react";
 import "./products-main.css";
 import PhoneProduct from "../../../../common/components/popular-offers-phones";
-import {SAMPLE_PHONES_PRODUCTS_LIST} from "../../../../common//components/constants/samplePhonesProductList'";
+import {SAMPLE_PHONES_PRODUCTS_LIST} from "../../../../common/components/constants/samplePhonesProductList";
 import Pagination from 'react-bootstrap/Pagination';
 
 const ProductMain =() => {
