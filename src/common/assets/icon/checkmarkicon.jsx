@@ -14,8 +14,8 @@ const  CheckMarkIcon = (props) => {
 
                 <path d="M5 10.8462L7.75 14L15 7" 
                     stroke="white" 
-                    stroke-width="2" 
-                    stroke-linecap="round"/>
+                    strokeWidth="2" 
+                    strokeLinecap="round"/>
                 </svg>
             );
 
