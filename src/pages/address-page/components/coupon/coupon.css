@@ -1,0 +1,48 @@
+.coupon-heading{
+    color: #231F20;
+    font-size: 16px;
+    font-weight: bold;
+}
+.coupon-code-section{
+    margin-left: 5px;
+    margin-top: 25px;
+}
+.apply-btn{
+    color: #FF2C91;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+.coupon-code{
+    border-radius: 6px;
+    border: none;
+    font-size: 12px;
+    width: 110px;
+    height: 15px;
+}
+.bill-detail-section{
+    margin-top: 50px;
+}
+
+.item-total-section{
+    color:#231F20;
+    font-size: 14px;
+}
+.taxes-charges-section{
+    color: #7F8386;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.total-amount-section{
+    color: #231F20;
+    font-weight: bold;
+    font-size: 14px;
+}
+.payment-btn{
+    background-color: #FF2C91;
+    color: #FFFFFF;
+    border-radius: 7px;
+    height: 56px;
+    width: 100%;
+    border: none;
+}

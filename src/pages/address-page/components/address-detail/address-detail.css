@@ -1,0 +1,38 @@
+
+.progress-step-main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+}
+.progress-step-text{
+    font-size: 14px;
+    line-height: 16px;
+}
+.progress-step-text.shopping{
+    font-weight: 600;
+}
+.progress-step-text.address{
+    font-weight: bold;
+}
+.progress-step-text.payment{
+    font-weight: lighter
+}
+
+.address-selection-headline{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.address-setect-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+.add-new-address-text{
+    font-size: 16px;
+    color: #FF2C91;
+}
+
+.new-address-creation-section{
+    margin-top: 50px;
+}

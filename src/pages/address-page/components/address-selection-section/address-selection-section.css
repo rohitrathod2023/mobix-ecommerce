@@ -1,0 +1,30 @@
+.address-detail-section-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.adress-detail-section{
+    display: flex;
+    justify-content: center;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 6px;
+    width: 440px;
+}
+.adress-detail-section.selected{
+    border-color:#FF2C91;
+}
+.adress-detail-section.first{
+    margin-right: 10px;
+}
+.custom-radio{
+    width: 22px;
+    height: 22px;
+    position: relative;
+    color: #FF2C91;
+    top: 7px;
+    
+
+}

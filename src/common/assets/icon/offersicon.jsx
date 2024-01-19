@@ -6,7 +6,7 @@ const OffersIcon = (props) => {
                 <svg width={width} 
                 height={height}
                 viewBox="0 0 22 22" 
-                fill="none" 
+                fill="none"     
                 >
                  <path 
                  fillrrule="evenodd" 
