@@ -1,0 +1,30 @@
+.payment-section-main{
+    margin-top: 50px;
+}
+.payment-left-side-section{
+    margin-left: 200px;
+}
+.payment-address-selection{
+    min-height: 150px;
+    min-width: 280px;
+}
+.adress-text{
+    color: #231F20;
+    font-size: 16px;
+    font-weight: bold;
+}
+.apply-text{
+    color: #FF2C91;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.address-name{
+    color: #1E2228;
+    font-size: 14px;
+    font-weight: bold;
+}
+.address{
+    color: #1E2228;
+    font-size: 14px;
+}
