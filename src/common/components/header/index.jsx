@@ -12,8 +12,9 @@ const Header = () =>{
 
     const goTologinPage = () =>{
         navigate("/login");
-
-
+    }
+    const goToCartPage = () =>{
+        navigate("/cart")
     }
     return(
 
@@ -34,7 +35,7 @@ const Header = () =>{
                    </div>
                 </div>
                 <div className="right-part">
-                    <div className="header-icons">
+                    <div className="header-icons" onClick={goToCartPage}>
                         <CartIcon/>
                         <span className="header-text mx-2">Cart</span>
                     </div>

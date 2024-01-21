@@ -1,7 +1,7 @@
 import React from "react";
 import "./coupon.css";
-import OffersIcon from "../../../../common/assets/icon/offersicon";
-import InformationSymbol from "../../../../common/assets/icon/informationsymbol.svg";
+import OffersIcon from "../../assets/icon/offersicon";
+import InformationSymbol from "../../assets/icon/informationsymbol.svg";
 const Coupon = () =>{
     return(
         <div className="coupon-page-main">

@@ -8,14 +8,17 @@ import TruckIcon from "../../../../common/assets/icon/truckicon.svg";
 import ReturnIcon from "../../../../common/assets/icon/returnicon.svg";
 import Rightcheck from "../../../../common/assets/icon/rightmark.svg"
 import ColorPickerSection from "../color-picker-section/index.jsx";
+import { useNavigate } from "react-router-dom";
 
 
 const ProductDetailSection = props => {
-   
+      
  const {productDetail} = props;
     
- const {name= "",  
-        currrentPrice = "", 
+ const {
+        id = "",
+        name= "",  
+        currentPrice = "", 
         originalPrice= "", 
         discount= "",
         offer = "",
@@ -23,6 +26,11 @@ const ProductDetailSection = props => {
         availablecolors = [],
         keyfeatures = [] ,
     } = productDetail;
+    const navigate = useNavigate();
+
+    const goToCartPage = () =>{
+        navigate("/cart",{id})
+    }
     
     return(
         <div className="product-section-main">
@@ -59,13 +67,13 @@ const ProductDetailSection = props => {
            <div className="prices-and-taxes section-gap">
             <div className="top-part d-flex align-items-center justify-space-between"> 
             <div className="current-price">
-                {productDetail !== undefined ? currrentPrice : "Name is not defined"}
+                {productDetail !== undefined ? currentPrice : "currrentPrice is not defined"}
                 </div>
             <div className="orignal-price mx-3">
-                {productDetail !== undefined ? originalPrice : "Name is not defined"}
+                {productDetail !== undefined ? originalPrice : "originalPrice is not defined"}
                 </div>
             <div className="discount mx-1">
-                {productDetail !== undefined ? discount : "Name is not defined"}
+                {productDetail !== undefined ? discount : "discount is not defined"}
             </div>
             </div>
             <div className="bottom-part">
@@ -82,8 +90,8 @@ const ProductDetailSection = props => {
                     <span>Bank offer {offer} on flipkart Axis Bank Credit Cart. T&C</span>
                 </div>
            </div>
-           <div className="add-to-cart section-gap"> 
-           <button  className="add-to-cart-btn btn felx align-items-center"> 
+           <div className="add-to-cart section-gap" onClick={goToCartPage}> 
+           <button  className="add-to-cart-btn btn felx align-items-center" > 
                 <CartIcon color = "white"/>
                 <span className="mx-2">Add to Cart</span>
             </button>

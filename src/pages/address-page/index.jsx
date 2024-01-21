@@ -2,7 +2,7 @@ import React from "react";
 import "./address-page.css"
 import NewHeader from "../../common/components/header/new-header";
 import AddressDetail from "./components/address-detail";
-import Coupon from "./components/coupon";
+import Coupon from "../../common/components/coupon";
 import PaymentOption from "../../common/assets/footerImages/payment-icon.svg"
 
 
