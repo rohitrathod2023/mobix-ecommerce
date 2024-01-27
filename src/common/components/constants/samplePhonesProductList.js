@@ -68,7 +68,7 @@ export const SAMPLE_PHONES_PRODUCTS_LIST = [
     discount: "45% off",
     offer:"5% cashback" ,
     emi: "EMI starts @  ₹2,167",
-    availablecolors : ["white","red ","white"],
+    availablecolors : ["white","red ","black"],
     keyfeatures : ["4700 mAh Lithium ion Battery",
                     "Qualcomm Snapdragon 8+ Gen 1 Processor",
                     "LTPO AMOLED (1 Hz - 120 Hz)",                                    

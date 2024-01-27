@@ -18,7 +18,7 @@ const ProductDetailSection = props => {
  const {
         id = "",
         name= "",  
-        currentPrice = "", 
+        currrentPrice = "", 
         originalPrice= "", 
         discount= "",
         offer = "",
@@ -29,7 +29,7 @@ const ProductDetailSection = props => {
     const navigate = useNavigate();
 
     const goToCartPage = () =>{
-        navigate("/cart",{id})
+        navigate(`/cart/${id}`);
     }
     
     return(
@@ -67,7 +67,7 @@ const ProductDetailSection = props => {
            <div className="prices-and-taxes section-gap">
             <div className="top-part d-flex align-items-center justify-space-between"> 
             <div className="current-price">
-                {productDetail !== undefined ? currentPrice : "currrentPrice is not defined"}
+                {productDetail !== undefined ? currrentPrice : "currrentPrice is not defined"}
                 </div>
             <div className="orignal-price mx-3">
                 {productDetail !== undefined ? originalPrice : "originalPrice is not defined"}

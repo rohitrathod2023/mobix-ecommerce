@@ -5,24 +5,28 @@ import ItemsList from "../items-list";
 import { useEffect } from "react";
 import { SAMPLE_PHONES_PRODUCTS_LIST } from "../../../../common/components/constants/samplePhonesProductList";
 const CartItems = props=>{
-    const {id} = props;
-    const [productDetail, setproductDetail] = useState({});
+    const {productId} = props;
+    console.log(productId)
+    const [productDetailCart, setproductDetailCart] = useState({});
+    useEffect(() =>{
+        console.log( "Sate = ",productDetailCart)
+    },[productDetailCart])
 
-
-    const getProductDetails = id =>{
-            const matchingProduct = SAMPLE_PHONES_PRODUCTS_LIST.find(phoneData => {
-                return phoneData.id === id;
+    const getProductDetails = productId =>{
+            const matchingProductCart = SAMPLE_PHONES_PRODUCTS_LIST.find(phoneData => {
+                return phoneData.id === productId;
             });
-            setproductDetail(matchingProduct);
-          
+            setproductDetailCart(matchingProductCart);
+            console.log(matchingProductCart);
+            console.log("find matching product")
           
 
     };
 
     useEffect(() => {
-        getProductDetails(id);
+        getProductDetails(productId);
       
-    }, [id]);
+    }, [productId]);
     return(
         <div className="cart-items-main">
             <div>
@@ -33,8 +37,8 @@ const CartItems = props=>{
                         <p className="list-section-heading">Shopping Cart</p>
                 </div>
                 <div className="items-list">
-                    <div><ItemsList productId = {id}/></div>
-                    <div><ItemsList/></div>
+                    <div><ItemsList productDetailCart = {productDetailCart}/></div>
+                    {/* <div><ItemsList/></div>                      */}
                 </div>
 
             </div>

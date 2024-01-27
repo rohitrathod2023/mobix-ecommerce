@@ -11,6 +11,9 @@ import ProductList from './pages/product-list';
 import ProductDetail from './pages/product-detail';
 import AddressPage from './pages/address-page';
 import Cart from './pages/cart';
+import Payment from './pages/payment';
+import OrderConfirmation from './pages/order-confirmation';
+import OrderFailedPage from './pages/order-failed';
 function App() {
   return (
     <div className="App">
@@ -21,7 +24,10 @@ function App() {
         <Route path = '/products' element ={<ProductList/>}/>
         <Route path='/products/:productName/:productId' element={<ProductDetail/>}/> 
         <Route path ='/checkout' element = {<AddressPage/>}/>
-        <Route path = '/cart' element = {<Cart/>}/>
+        <Route path = '/cart/:productId' element = {<Cart/>}/>
+        <Route path = '/payment' element = {<Payment/>}/>
+        <Route path='/orderconfirmation' element = {<OrderConfirmation/>}/>
+        <Route path='/orderfailed' element = {<OrderFailedPage/>}/>
       </Routes>
      
        

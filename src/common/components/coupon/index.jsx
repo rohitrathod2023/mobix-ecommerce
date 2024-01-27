@@ -2,7 +2,15 @@ import React from "react";
 import "./coupon.css";
 import OffersIcon from "../../assets/icon/offersicon";
 import InformationSymbol from "../../assets/icon/informationsymbol.svg";
-const Coupon = () =>{
+import { useNavigate } from "react-router-dom";
+const Coupon = props =>{
+    const {name, pageLink} = props;
+   
+    const navigate = useNavigate();
+    const goToCheckoutPage = () =>{
+        navigate(pageLink);
+    }
+
     return(
         <div className="coupon-page-main">
             <div>
@@ -30,7 +38,7 @@ const Coupon = () =>{
                 </div>
             </div>
             <div>
-                <button className="payment-btn">Proceed to Payment</button>
+                <button onClick={goToCheckoutPage} className="payment-btn">{name}</button>
             </div>
         </div>
     );

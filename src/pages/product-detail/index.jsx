@@ -20,10 +20,7 @@ const ProductDetail = () => {
             const matchingProduct = SAMPLE_PHONES_PRODUCTS_LIST.find(phoneData => {
                 return phoneData.id === productId;
             });
-          
             setproductDetail(matchingProduct);
-          
-
     };
 
     useEffect(() => {

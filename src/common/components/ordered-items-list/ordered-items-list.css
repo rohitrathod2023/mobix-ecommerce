@@ -1,0 +1,47 @@
+.order-items-list-main{
+    max-width: 873px;
+    min-height: 161px;
+   
+}
+.ordered-items{
+    max-width: 400px;
+    min-height: 120px;
+
+}
+.item-image{
+    align-items: center;
+}
+
+.items-count{
+    padding-left: 10px;
+    color: #1E2228;
+    font-size: 14px;
+    font-weight: bold;
+}
+.ordered-items{
+    margin-left: 20px;
+}
+.custom-phone-img{
+    max-height: 94px; 
+    max-width: 100%;
+    margin-top: 25px;
+}
+.items-name-section-main{
+    padding-left: 35px;
+}
+.items-name{
+    color: #1E2228;
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+.item-color-text{
+    color: #939599;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.item-price{
+    color: #1E2228;
+    font-size: 16px;
+    font-weight: bold;
+}

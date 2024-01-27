@@ -1,25 +1,23 @@
-const  CheckMarkIcon = (props) => {
+const CheckMarkIcon = (props) => {
+  const { color = "#FF2C91", width = "20", height = "20" } = props;
 
- const {color ="#FF2C91", width = "20", height="20" } = props;
+  return (
+    <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} fill="none">
+      <rect
+        width={width}
+        height={height}
+        rx={Math.min(width, height) / 2}
+        fill={color}
+      />
 
-    return(
-        
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <rect 
-                width={width} 
-                height={height}
-                rx="10" 
-                fill={color}
-                />
+      <path
+        d={`M${width * 0.2} ${height * 0.5} L${width * 0.35} ${height * 0.7} L${width * 0.8} ${height * 0.3}`}
+        stroke="white"
+        strokeWidth={Math.min(width, height) * 0.1} // Adjust the strokeWidth as needed
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+};
 
-                <path d="M5 10.8462L7.75 14L15 7" 
-                    stroke="white" 
-                    strokeWidth="2" 
-                    strokeLinecap="round"/>
-                </svg>
-            );
-
-        };
-
-        export default CheckMarkIcon;
-
+export default CheckMarkIcon;

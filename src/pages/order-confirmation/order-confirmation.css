@@ -1,0 +1,44 @@
+.logo{
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.order-confirmation-main{
+    margin-top: 50px;
+}
+.confirmation-left-side{
+    margin-left: 150px;
+}
+.check-mark-icon{
+    margin-top: 50px;
+}
+.ordered-confirmation-details{
+    margin-top: 30px;
+}
+.congrats-text{
+    color: #21C17A;
+    font-size: 20px;
+    font-weight: bold;
+}
+.order-place-text{
+    color: #1E2228;
+    font-size: 32px;
+    font-weight: bold;
+}
+.order-details-section{
+    color: #1E2228;
+    font-size: 14px;
+}
+.ordered-items-section{
+    margin-top: 50px;
+}
+.custom-btn{
+    background-color: #FF2C91;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 244px;
+    min-height: 56px;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 40px;
+}

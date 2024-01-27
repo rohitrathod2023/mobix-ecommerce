@@ -1,7 +1,19 @@
 import React from "react";
 import "./items-list.css";
 import Phome1 from "../../../../common/assets/images/phones/phone1.svg"
-const ItemsList = () =>{
+const ItemsList = props =>{
+    const {productDetailCart} = props;
+    //  console.log( "name= ", productDetailCart.name);
+     const {
+        name= "",  
+        currrentPrice = "", 
+        originalPrice= "", 
+        discount= "",
+        offer = "",
+        emi = "",
+        availablecolors = [],
+        keyfeatures = [] ,
+    } = productDetailCart;
     
     return(
         <div className="items-list-section">
@@ -10,15 +22,15 @@ const ItemsList = () =>{
             </div>
             <div className="name-price-section">
                 <div className="items-name-section mx-2">
-                    <p className="items-name">Samsung Galaxy Note 8 (Orchid Grey, 6GB RAM, 64GB Storage)</p>
+                    <p className="items-name">{name}</p>
                 </div>
                 <div className="items-price-section mx-2">
-                        <h5 className="items-price">20,900</h5>
+                        <h5 className="items-price">{currrentPrice}</h5>
                         <p className="price-section-text">Inclusive ot all taxes</p>
                 </div>
             </div>
             
-            <div className="items-quntity row">
+            <div className="items-quntity row"> 
             <label className="items-quntity-heading">Qty</label>
             <select className="items-quntity-selection">
                 <option value="1">1</option>

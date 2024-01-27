@@ -16,13 +16,13 @@ const Payment = () =>{
                             <p className="adress-text">Address</p>
                             <p className="apply-text">Apply</p>
                         </div>
-                        <dir>
+                        <div>
                             <p className="address-name">Jennifer's Home 9593214756</p>
                             <p className="address">101, Acecity, Sector 1, Greater Noida West, Gautam Budh Nagar, Uttar Pradesh- 201306</p>
-                        </dir>
+                        </div>
                     </div>
                     <div> 
-                        <Coupon name = "Place Order" pageLink = ""/>
+                        <Coupon name = "Place Order" pageLink = "/orderconfirmation"/>
                     </div>
                 </div>
             </div>
