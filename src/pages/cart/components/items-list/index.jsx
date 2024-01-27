@@ -7,12 +7,6 @@ const ItemsList = props =>{
      const {
         name= "",  
         currrentPrice = "", 
-        originalPrice= "", 
-        discount= "",
-        offer = "",
-        emi = "",
-        availablecolors = [],
-        keyfeatures = [] ,
     } = productDetailCart;
     
     return(
