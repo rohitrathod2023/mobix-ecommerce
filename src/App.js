@@ -24,7 +24,7 @@ function App() {
         <Route path = '/products' element ={<ProductList/>}/>
         <Route path='/products/:productName/:productId' element={<ProductDetail/>}/> 
         <Route path ='/checkout' element = {<AddressPage/>}/>
-        <Route path = '/cart/:productId' element = {<Cart/>}/>
+        <Route path = '/cart/:productId?' element = {<Cart/>}/>
         <Route path = '/payment' element = {<Payment/>}/>
         <Route path='/orderconfirmation' element = {<OrderConfirmation/>}/>
         <Route path='/orderfailed' element = {<OrderFailedPage/>}/>

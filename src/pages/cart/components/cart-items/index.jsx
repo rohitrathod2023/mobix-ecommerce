@@ -17,8 +17,8 @@ const CartItems = props=>{
                 return phoneData.id === productId;
             });
             setproductDetailCart(matchingProductCart);
-            console.log(matchingProductCart);
-            console.log("find matching product")
+            //console.log(matchingProductCart);
+            //console.log("find matching product")
           
 
     };

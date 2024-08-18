@@ -1,91 +1,87 @@
-.items-list-section{
-    display: flex;
-    justify-content: flex-start;
-    /* border: 1px solid black; */
-    min-height: 120px; 
-    margin-top: 10px;
+.items-list-section {
+  display: flex;
+  justify-content: flex-start;
+  /* border: 1px solid black; */
+  min-height: 120px;
+  margin-top: 10px;
 }
 
-.cart-phone-container{
-    max-height: 94px;
-    max-width: 100%;
-    margin-top: 12px;
-    margin-left: 10px;
-    
+.cart-phone-container {
+  max-height: 94px;
+  max-width: 100%;
+  margin-top: 12px;
+  margin-left: 10px;
 }
-.cart-phone-img{
-    max-height: 94px; 
+.cart-phone-img {
+  max-height: 94px;
 }
-.name-price-section{
-    padding-left: 35px;
-
+.name-price-section {
+  padding-left: 35px;
 }
-.items-name-section{
-    max-width: 350px;
+.items-name-section {
+  max-width: 350px;
 }
-.items-name{
-    color: #1E2228;
-    font-size: 16px;
-    font-weight: 500;
+.items-name {
+  color: #1e2228;
+  font-size: 16px;
+  font-weight: 500;
 }
-.items-price{
-    color: #1E2228;
-    font-size: 24px;
-    font-weight: bold;
+.items-price {
+  color: #1e2228;
+  font-size: 24px;
+  font-weight: bold;
 }
-.price-section-text{
-    color: #939599;
-    font-size: 12px;
-   
+.price-section-text {
+  color: #939599;
+  font-size: 12px;
 }
-.items-quntity{
-    padding-left: 20px;
+.items-quntity {
+  padding-left: 20px;
 }
-.items-quntity-heading{
-    color: #1E2228;
-    font-size: 14px;
-    font-weight: 500;
+.items-quntity-heading {
+  color: #1e2228;
+  font-size: 14px;
+  font-weight: 500;
 }
-.items-quntity-selection{
-    margin-bottom: 60px;
-    border-radius: 8px;
-    max-width: 70px;
+.items-quntity-selection {
+  margin-bottom: 60px;
+  border-radius: 8px;
+  max-width: 70px;
 }
-.items-color{
-    padding-left: 20px;
+.items-color {
+  padding-left: 20px;
 }
-.color-selection-heading{
-    color: #1E2228;
-    font-size: 14px;
-    font-weight: 500;
+.color-selection-heading {
+  color: #1e2228;
+  font-size: 14px;
+  font-weight: 500;
 }
-.color-selection{
-    border: 1px solid black;
-    margin-bottom: 61px;
-    border-radius: 8px;
-    align-items: center;
-
+.color-selection {
+  border: 1px solid black;
+  margin-bottom: 61px;
+  border-radius: 8px;
+  align-items: center;
 }
-.color-selection-circle{
-    display: block;
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    background-color: red;
+.color-selection-circle {
+  display: block;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: red;
 }
 
-.select-color{
-    color: #1E2228;
-    font-size: 12px;
-    font-weight: bold;
-    padding-left: 10px;
-    border: none;
+.select-color {
+  color: #1e2228;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 10px;
+  border: none;
 }
-.items-remove{
-      margin-left: 70px;
-      margin-top: 40px;
-      color: #FF2C91;
-      font-size: 14px;
-      font-weight: 500;
-      cursor: pointer;
+.items-remove {
+  margin-left: 70px;
+  margin-top: 40px;
+  color: #ff2c91;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
 }
